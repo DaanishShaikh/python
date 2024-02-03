@@ -10,3 +10,5 @@ z=[1,2,3,4]
 print(type(z))
 t=(1,2,3)
 print(type(t))
+s={1,2,3}
+print(type(s))

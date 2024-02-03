@@ -8,3 +8,5 @@ l1=[1,2,3]
 print(l1[0:-1:1])
 z=[1,2,3,4]
 print(type(z))
+t=(1,2,3)
+print(type(t))

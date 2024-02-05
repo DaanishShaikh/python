@@ -12,3 +12,6 @@ t=(1,2,3)
 print(type(t))
 s={1,2,3}
 print(type(s))
+s=2
+y=3
+print(s//y)

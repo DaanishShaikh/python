@@ -15,3 +15,5 @@ print(type(s))
 s=2
 y=3
 print(s//y)
+v={1,2,3}
+print(type(v))

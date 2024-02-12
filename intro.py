@@ -18,9 +18,16 @@ print(s//y)     #prints s//y
 v={1,2,2,3}
 print(type(v))
 m=[[1,2,3,4,5],[6,7,8,9,10],[11,12,13,14,15],[16,17,18,19,20],[21,22,23,24,25]]
-for i in range(0,5):
-        for j in range(0,5):
-            print(m[i][j], end=' ')
+n=int(input())
+type(n)
+for i in range(n-1):
+        for j in range(n):
+            if ((i+j)==n-1):
+                  print('/', end='')
+            if(i==j):
+                  print("\\", end='')
+            else:
+                print('*', end='')
         print()
 
 
